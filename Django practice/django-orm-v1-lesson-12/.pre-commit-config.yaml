@@ -1,0 +1,15 @@
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0  # Use the ref you want to point at
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+        name: Formatting files
+-   repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+    -   id: isort
+        name: Sorting imports
